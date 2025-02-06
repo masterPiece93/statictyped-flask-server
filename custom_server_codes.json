@@ -1,0 +1,44 @@
+[
+    {
+        "code": "VALIDATE",
+        "standard_message": "data validtaion failed",
+        "description": "Raised when some sort of data validation fails",
+        "tag": "generic:"
+    },
+    {
+        "code": "TYPE_ERR",
+        "standard_message": "type error",
+        "description": "Raised When some sort of type mismatch occurs",
+        "tag": "generic:"
+    },
+    {
+        "code": "FORMAT_ERR",
+        "standard_message": "format error",
+        "description": "Raised When some specific format is expected, and that is not fulfilled.",
+        "tag": "generic:"
+    },
+    {
+        "code": "REQUIRED",
+        "standard_message": "required",
+        "description": "Raised When some field/data is expected, but not got.",
+        "tag": "generic:"
+    },
+    {
+        "code": "EMPTY",
+        "standard_message": "empty",
+        "description": "Raised When some field/data is empty/void, but it is required to have some value",
+        "tag": "generic:"
+    },
+    {
+        "code": "REAL_NUMBER_REQ",
+        "standard_message": "real number required",
+        "description": "Raised When some field/data is expected to in form of a real number, but it is actually not",
+        "tag": "generic:"
+    },
+    {
+        "code": "POSITIVE_NUMBER_REQ",
+        "standard_message": "positive number required",
+        "description": "Raised When some field/data is expected to in form of a positive number, but it is actually not",
+        "tag": "generic:"
+    }
+]

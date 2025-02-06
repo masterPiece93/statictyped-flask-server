@@ -1,0 +1,5 @@
+mypy
+Flask
+# pyutils==1.0.0
+# -e git+https://github.com/masterPiece93/pyutils.git#egg=pyutils
+git+https://github.com/masterPiece93/pyutils.git@e1b998148db96a51bc0f3a25196c81f8aa5e5923
